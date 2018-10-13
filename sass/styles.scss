@@ -1,0 +1,64 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    background: rgb(95, 87, 87);
+    font-family: 'Lato', sans-serif;
+}
+// Variables 
+$light-grey: #eee;
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+}
+// header
+header {
+    img {
+        width: 100%;
+        margin-right:120px;
+    }
+
+        // Nav Items
+    nav{
+        width: 100%;
+        a{
+            text-decoration: none;
+            display: block;
+            padding: 5px;
+            text-align: center;
+            color: $light-grey;
+        }
+        
+    }
+}
+
+// home section 
+.home {
+    text-align: center;
+    .head-text {
+        font-size: 20px;
+    }
+    input[type="email"] {
+        padding: 6px;
+        text-align: center; 
+    }
+    .btn {
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+        
+    }
+    
+}
+// button
+@mixin Buttons {
+    padding: 6px;
+    font-size: 20px;
+    text-align: center;
+    background: #f1c40f;
+    border: 0;
+    border-radius: 4px;
+}
+button {
+    @include Buttons;
+}

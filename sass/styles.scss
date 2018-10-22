@@ -55,6 +55,11 @@ header {
     }
     
 }
+// main 
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
 // button
 @mixin Buttons {
     padding: 6px;
@@ -72,4 +77,11 @@ button {
     width: 100%;
     margin: 0 auto;
     display: block;
+}
+
+// media queires
+@media (min-width:650px){
+    main {
+        grid-template-columns: repeat(100px, 2fr);
+    }
 }

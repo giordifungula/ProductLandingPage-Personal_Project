@@ -51,9 +51,12 @@ header {
         display: block;
         margin: 0 auto;
         margin-top: 20px;
-        
     }
-    
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin: 20px;
 }
 // main 
 main {
@@ -74,19 +77,12 @@ button {
 }
 // video section
 
-aside {
+#video {
+    width: 100%;
 }
-iframe {
- display: block;
- margin: 0 auto;
-}
+
 //grid content
-.grid {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 20px;
-    margin: 20px;
-}
+
 .grid-hldr{
     border: 2px solid grey;
     text-align: center;
@@ -101,4 +97,15 @@ iframe {
         margin: 0 auto;
         max-width: 1000px;
     }
+    
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 20px;
+        margin: 20px;
+    }
+    iframe {
+        display: block;
+        margin: 0 auto;
+       }
 }

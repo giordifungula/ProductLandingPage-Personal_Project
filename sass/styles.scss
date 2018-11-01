@@ -5,12 +5,12 @@
 body {
     box-sizing: border-box;
     margin: 0;
-    background: rgb(95, 87, 87);
+    background: #eee;
     font-family: 'Lato', sans-serif;
 }
 // Variables 
 
-$light-grey: #eee;
+$light-grey: rgb(58, 54, 54);
 
 .container {
     width: 100%;
@@ -78,13 +78,27 @@ button {
 }
 // video section
 
-
+// footer section
+a {
+    text-decoration: none;
+    color: #eee;
+    margin: 10px;
+}
+footer {
+    text-align: right;
+    background: rgb(32, 31, 31);
+    padding: 20px;
+    .top {
+        padding: 5px;
+    }
+}
 
 //grid content
 
 .grid-hldr{
     border: 2px solid grey;
     text-align: center;
+    
 }
 
 // media queires
@@ -92,7 +106,7 @@ button {
     main {
         grid-template-columns: repeat(100px, 2fr);
     }
-    .container {
+    .container,footer {
         margin: 0 auto;
         max-width: 1000px;
     }

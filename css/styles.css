@@ -6,7 +6,7 @@
 body {
   box-sizing: border-box;
   margin: 0;
-  background: #5f5757;
+  background: #eee;
   font-family: "Lato", sans-serif;
 }
 
@@ -27,7 +27,7 @@ header nav a {
   display: block;
   padding: 5px;
   text-align: center;
-  color: #eee;
+  color: #3a3636;
 }
 
 .home {
@@ -67,6 +67,21 @@ button {
   margin: 12px;
 }
 
+a {
+  text-decoration: none;
+  color: #eee;
+  margin: 10px;
+}
+
+footer {
+  text-align: right;
+  background: #201f1f;
+  padding: 20px;
+}
+footer .top {
+  padding: 5px;
+}
+
 .grid-hldr {
   border: 2px solid grey;
   text-align: center;
@@ -77,7 +92,7 @@ button {
     grid-template-columns: repeat(100px, 2fr);
   }
 
-  .container {
+  .container, footer {
     margin: 0 auto;
     max-width: 1000px;
   }

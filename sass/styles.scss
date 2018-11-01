@@ -121,6 +121,24 @@ footer {
         display: block;
         margin: 0 auto;
        }
+       
+    header {
+        margin: 10px;
+        img {
+            float: left;
+            width: 300px;
+            // margin-right: 500px;
+        }
+        nav {
+            float: right;
+            display: contents;
+            a {
+            display: inline;
+            }
+            clear: both;
+        }
+        overflow: hidden;
+    }
 }
 
 @media(max-width: 500px){

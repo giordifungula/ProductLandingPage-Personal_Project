@@ -108,6 +108,23 @@ footer .top {
     display: block;
     margin: 0 auto;
   }
+
+  header {
+    margin: 10px;
+    overflow: hidden;
+  }
+  header img {
+    float: left;
+    width: 300px;
+  }
+  header nav {
+    float: right;
+    display: contents;
+    clear: both;
+  }
+  header nav a {
+    display: inline;
+  }
 }
 @media (max-width: 500px) {
   #video iframe {

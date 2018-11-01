@@ -65,9 +65,26 @@ iframe {
   margin: 0 auto;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  margin: 20px;
+}
+
+.grid-hldr {
+  border: 2px solid grey;
+  text-align: center;
+}
+
 @media (min-width: 650px) {
   main {
     grid-template-columns: repeat(100px, 2fr);
+  }
+
+  .container {
+    margin: 0 auto;
+    max-width: 1000px;
   }
 }
 

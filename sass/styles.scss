@@ -58,6 +58,7 @@ header {
     grid-template-columns: repeat(1,1fr);
     margin: 20px;
 }
+
 // main 
 main {
     display: grid;
@@ -102,6 +103,13 @@ footer {
     button {
         padding: 10px;
     }
+    .money {
+        font-style: italic;
+        font-weight: 600;
+        font-size: 25px;
+        color: rgb(49, 45, 45);
+    }
+    margin: 10px;
 }
 
 // media queires

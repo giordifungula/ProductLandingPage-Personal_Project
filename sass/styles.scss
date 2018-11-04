@@ -98,7 +98,10 @@ footer {
 .grid-hldr{
     border: 2px solid grey;
     text-align: center;
-    
+    border-radius: 3px;
+    button {
+        padding: 10px;
+    }
 }
 
 // media queires
@@ -140,6 +143,17 @@ footer {
         overflow: hidden;
     }
 }
+// Bottom section
+    .grid-hldr > h2 {
+        background: rgb(230, 225, 225);
+        margin: 0;
+        padding: 10px;
+        font-size: 1.2em;
+        font-weight: 500;
+        // font-style: oblique;
+    }
+
+// Bottom Section Finish
 
 @media(max-width: 500px){
     #video iframe {

@@ -8,7 +8,7 @@ Technologies used will be
     <li>CSS</li>
     <li>RWD</li>
     <li>SASS</li>
-    <li>U+2764</li>
+    <li style="font-size:20px;color:red">♥</li>
 </ul>
 
 

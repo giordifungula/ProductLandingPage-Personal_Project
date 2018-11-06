@@ -67,10 +67,22 @@ main {
 .main-cnt {
     display: flex;
     align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
     i {
         font-size: 40px;
         color: #f18f0f;
         padding-right: 20px;
+        overflow: hidden;
+        width: 20vw;
+    }
+    .desc {
+        width: 80vw;
+        h2 {
+            margin: 0;
+            padding: 0;
+        }
     }
 }
 // button

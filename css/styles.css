@@ -59,11 +59,12 @@ main {
 
 .main-cnt {
   display: flex;
+  align-items: center;
 }
 .main-cnt i {
   font-size: 40px;
   color: #f18f0f;
-  padding: 20px;
+  padding-right: 20px;
 }
 
 button {

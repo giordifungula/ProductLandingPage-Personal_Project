@@ -64,6 +64,14 @@ main {
     display: grid;
     grid-template-columns: 1fr;
 }
+.main-cnt {
+    display: flex;
+    i {
+        font-size: 40px;
+        color: #f18f0f;
+        padding: 20px;
+    }
+}
 // button
 @mixin Buttons {
     padding: 6px;
@@ -95,7 +103,6 @@ footer {
 }
 
 //grid content
-
 .grid-hldr{
     border: 2px solid grey;
     text-align: center;
@@ -121,7 +128,6 @@ footer {
         margin: 0 auto;
         max-width: 1000px;
     }
-    
     .grid {
         display: grid;
         grid-template-columns: repeat(3,1fr);
@@ -131,8 +137,7 @@ footer {
     iframe {
         display: block;
         margin: 0 auto;
-       }
-       
+       }  
     header {
         margin: 10px;
         img {

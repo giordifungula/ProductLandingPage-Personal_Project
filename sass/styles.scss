@@ -2,6 +2,9 @@
     box-sizing: border-box;
     overflow-x: hidden;
 }
+a {
+    text-decoration: none;
+}
 body {
     box-sizing: border-box;
     margin: 0;
@@ -136,6 +139,11 @@ footer {
     main {
         grid-template-columns: repeat(100px, 2fr);
         margin: 20vh;
+        .main-cnt {
+            i{
+                display: block;
+            }
+        }
     }
     .container,footer {
         margin: 0 auto;
@@ -184,5 +192,10 @@ footer {
 @media(max-width: 500px){
     #video iframe {
         width: 100%;
+    }
+    .main-cnt {
+        i{
+            display: none;
+        }
     }
 }

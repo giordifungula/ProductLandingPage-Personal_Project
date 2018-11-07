@@ -84,6 +84,7 @@ main {
 .main-cnt .desc {
   width: 80vw;
 }
+
 button {
   padding: 6px;
   font-size: 20px;
@@ -134,7 +135,7 @@ footer .bottom {
 @media (min-width: 650px) {
   main {
     grid-template-columns: repeat(100px, 2fr);
-    margin: 15vh;
+    margin: 9vh;
   }
   main .main-cnt i {
     display: block;

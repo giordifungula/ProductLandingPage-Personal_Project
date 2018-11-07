@@ -87,9 +87,6 @@ main {
     }
     .desc {
         width: 80vw;
-        h2 {
-            
-        }
     }
 }
 // button
@@ -149,7 +146,7 @@ footer {
 @media (min-width:650px){
     main {
         grid-template-columns: repeat(100px, 2fr);
-        margin: 15vh;
+        margin: 9vh;
         .main-cnt {
             i{
                 display: block;
